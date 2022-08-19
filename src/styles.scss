@@ -1,0 +1,26 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgb(22, 21, 21);
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  fill: black;
+}
+.tick line {
+  opacity: 0.15;
+}
+.axis path {
+  opacity: 0.1;
+}
+.volume .tick text {
+  font-size: 9px;
+}
+/* d3 candle stick end */
+
+body {
+  background-color: white;
+}
